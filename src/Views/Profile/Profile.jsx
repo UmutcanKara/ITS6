@@ -71,11 +71,13 @@ const Profile = ({ setLoading }) => {
                         }
                     </>
                     : <>
-                        <form>
+                        <form className='profile-form'>
                             <input type="text" name="name" placeholder="John Doe" onChange={e => onChangeHandler(e)} value={editFields.name} />
-                            <input type="text" name="bio" placeholder="John Doe is a web developer from New York. He is 27 years old and he likes to code." onChange={e => onChangeHandler(e)} value={editFields.bio} />
-                            <Button variant="outline" type="submit" onClick={e => confirmEdit(e)}>Confirm Changes</Button>
-                            <Button variant="outline" type="submit" onClick={e => handleEdit(e)}>Cancel Changes</Button>
+                            <textarea type="text" name="bio" placeholder="John Doe is a web developer from New York. He is 27 years old and he likes to code." onChange={e => onChangeHandler(e)} value={editFields.bio} />
+                            <div>
+                                <Button variant="outline" type="submit" onClick={e => confirmEdit(e)}>Confirm Changes</Button>
+                                <Button variant="outline" type="submit" onClick={e => handleEdit(e)}>Cancel Changes</Button>
+                            </div>
                         </form>
                     </>
                 }

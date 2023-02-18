@@ -49,3 +49,23 @@
     background-color:  #2f3431;
     color: #fff;
 }
+.profile-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile-form > input, .profile-form > textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.profile-form > textarea {
+    resize: none;
+    width: 40vw;
+    height: 30%;
+}
+.profile-form > div {
+    display: flex;
+    gap: 2rem;
+}
