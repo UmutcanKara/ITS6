@@ -1,0 +1,31 @@
+.custom-btn {
+    background-color: transparent;
+    color: #2f3431;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    padding: 5px 12px;
+}
+
+.btn-borderless {
+    border: 1px solid transparent;
+    text-decoration: underline;
+}
+.btn-borderless:hover {
+    text-decoration: none;
+    border: 1px solid #2f3431;
+    border-radius: 5px;
+    background-color:#2f3431 ;
+    color: #fff;
+
+}
+.btn-outline {
+    border-radius: 8px;
+    border: 1px solid #2f3431;
+    background-color: transparent;
+    color: #2f3431;
+}
+.btn-outline:hover {
+    background-color:  #2f3431;
+    color: #fff;
+}

@@ -1,0 +1,15 @@
+.post-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+.post-form > *:not(button) {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.post-form > textarea {
+    resize: none;
+    width: 40vw;
+}

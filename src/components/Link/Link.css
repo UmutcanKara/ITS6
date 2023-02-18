@@ -1,0 +1,31 @@
+.custom-link, .custom-link:visited {
+    background-color: transparent;
+    color: #2f3431;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    padding: 5px 12px;
+}
+
+.link-borderless {
+    border: 1px solid transparent;
+    text-decoration: underline;
+}
+.link-borderless:hover {
+    text-decoration: none;
+    border: 1px solid #2f3431;
+    border-radius: 5px;
+    background-color:#2f3431 ;
+    color: #fff;
+
+}
+.link-outline {
+    border-radius: 8px;
+    border: 1px solid #2f3431;
+    background-color: transparent;
+    color: #2f3431;
+}
+.link-outline:hover {
+    background-color:  #2f3431;
+    color: #fff;
+}

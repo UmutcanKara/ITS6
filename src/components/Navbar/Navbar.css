@@ -1,0 +1,15 @@
+nav {
+    top:0;
+    display: flex;
+    width: 80vw;
+    padding: 0 10% ;
+
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    transition: all ease 0.5s;
+}
+.nav-scrolled {
+    background-color: #cdcece;
+    opacity: 0.97;
+}

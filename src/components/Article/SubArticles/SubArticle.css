@@ -1,0 +1,11 @@
+.sub-article {
+    display: flex;
+    flex-direction: column;
+}
+.sub-article > * {
+    width: 100%;
+    margin: auto;
+}
+.sub-article-detail > h4 {
+    color: #5A5B5A;
+}

@@ -1,0 +1,51 @@
+.profile-about {
+    display: flex; 
+    gap: 1.5rem;
+}
+.profile-img  {
+    margin: auto 0;
+    width: 170px;
+    height: 170px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+.profile-posts {
+    margin-top: 3rem;
+
+}
+.profile-articles {
+    margin-top: 2rem !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    margin-top: 10%;
+}
+.profile-posts-head {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.profile-posts-head > * {
+    margin: auto 0;
+}
+.new-post-btn {
+    margin: auto 0;
+    background-color: transparent;
+    text-decoration: none;
+    color: #2f3431;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    padding: 5px 12px;
+    border-radius: 8px;
+    border: 1px solid #2f3431;
+    background-color: transparent;
+    color: #2f3431;
+}
+.new-post-btn:hover {
+    background-color:  #2f3431;
+    color: #fff;
+}

@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  overflow-x:hidden ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.routes {
+  padding: 0 10% ;
+  margin-top: 7%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h2,h3,h4,h5,h6,p,li {
+  font-family: 'Tiro Telugu', serif;
+  font-weight: 400;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1,h2,h3,h4,h5,h6,li {
+  color: #2f3431;
+}
+p {
+  color: #6a6a6a
+}
+li {
+  list-style: none;
+  margin: 0 20px;
+}
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-direction: row;
+  margin: auto 0;
 }

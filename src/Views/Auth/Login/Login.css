@@ -1,0 +1,23 @@
+.login {
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.login-card > input {
+    width: 150%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.login-card > button {
+    width: 162%;
+}

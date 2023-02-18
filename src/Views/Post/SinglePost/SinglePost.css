@@ -1,0 +1,27 @@
+.post-single{
+    display: flex;
+    gap: 5rem;
+}
+.post-details  {
+    width: 45vw;
+    display: inline-block;
+
+}
+.post-details > img {
+    width: 45vw;
+}
+.post-author-details {
+    display: inline-block;
+}
+.post-author-details > * {
+    width: 30vw;
+}
+.post-misc {
+    margin-top: 10%;
+}
+.more-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+
+}
